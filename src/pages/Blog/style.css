@@ -1,0 +1,39 @@
+.blog-items-container .bc-ch:nth-child(even){
+    display: flex;
+    flex-direction: column !important;
+    gap: 10px !important;
+}
+
+.prev-post{
+    font-size: 1rem !important;
+    line-height: 1.3rem !important;
+}
+
+.prev-posts-container{
+    border-left: 2px solid burlywood;
+    padding-left: 1rem;
+}
+
+
+.blogss .text-styled{
+    line-height: 45px;
+    font-size: 2rem;
+}
+
+.blog-mini-image{
+    width: max(30%, 450px);
+    object-fit: contain;
+}
+
+.prev-posts-container{
+    min-width: 300px;
+}
+
+.flex-reverse{
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.max-width-1300{
+    max-width: 1300px;
+}

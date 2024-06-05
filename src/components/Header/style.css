@@ -1,0 +1,128 @@
+#header-container{
+    background: linear-gradient(90deg, #000000 19.27%, #B87E1B 153.58%);
+    height: 5.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1000;
+    /* border: 2px solid #FFFFFF */
+  width:100vw ;
+
+}
+#header-container-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#auth-button{
+    border: 2px solid #FFFFFF;
+    width: 11rem;
+    height: 3rem;
+    background: transparent;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#auth-button:hover{
+    opacity: 0.8;
+}
+
+.nav-item{
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+}
+
+.nav-active{
+    background: linear-gradient(90deg, #F0C660 20.75%, #FFFFFF 79.25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hamburger-icon{
+    cursor: pointer;
+}
+
+.sidebar{
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    padding: 1rem;
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: slide 0.01s ease-in-out;
+    /* background: linear-gradient(90deg, #000000 19.27%, #B87E1B 153.58%); */
+}
+
+@keyframes slide {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      display: block;
+      transform: translateX(0);
+    }
+  }
+
+.sidebar > ul{
+    display: flex;
+    flex-direction: column;
+    color: grey !important;
+}
+
+.sidebar > ul > li:first-child{
+    position: absolute;
+    left: 0.8rem;
+    top: 0.8rem;
+    cursor: pointer;
+}
+
+.sidebar > ul > li:first-child:hover{
+    opacity: 0.5;
+}
+
+.sidebar > ul > li:nth-child(2){
+    margin-top: 4rem;
+}
+
+.sidebar button {
+    background: linear-gradient(90deg, #000000 19.27%, #B87E1B 153.58%) !important;
+    color: #ffffff !important;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.small-logo{
+    width: 200px;
+    position: relative;
+    /* left: -1rem; */
+}
+@media (max-width: 1000px) {
+.link{
+    color: grey !important;
+}
+.sidebar{
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5) !important;
+}
+}

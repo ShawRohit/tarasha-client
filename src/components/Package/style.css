@@ -1,0 +1,74 @@
+.package-container{
+    background: #DFAE0029;
+    width: 23rem;
+    margin-bottom: 1rem;
+    min-height: 25rem;
+    position: relative;
+    padding-bottom: 7rem !important;
+    padding-left: 2rem !important;
+}
+
+.package-container p{
+    font-size: 20px;
+}
+
+.package-container p:first-child{
+    font-size: 3rem;
+}
+.package-divider{
+    background: linear-gradient(90deg, #B87E1B 0%, #F0C660 17.81%, #B87E1B 42.29%, #F0C660 65.21%, #B87E1B 80.31%, #F0C660 100%);
+    height: 1.5px;
+    width: 4rem;
+    max-width: 90%;
+}
+
+.select-plan{
+    bottom: 1rem;
+    left: 2.3rem;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+}
+
+.select-plan:hover{
+    opacity: 0.8;
+}
+
+.select-plan *{
+    font-size: 1.5rem !important;
+    color: #B87E1B;
+}
+
+.select-package-divider{
+    width: 100%;
+    height: 3px;
+    max-width: 100%;
+    transition: all .4s ease;
+-webkit-transition: all .4s ease;
+}
+
+.select-plan:hover .select-package-divider, .select-package-divider:hover{
+    width: 50%;
+}
+
+@media (max-width: 900px) {
+    .package-container{
+        height: auto !important;
+        min-height: auto !important;
+        width: 95% !important;
+        max-width: auto !important;
+        min-width: none !important;
+    }
+    .package-container p{
+        font-size: 0.8rem !important;
+    }
+    .package-container .text-styled-2{
+        font-size: 2rem !important;
+    }
+}
+
+.left{
+    text-align: left !important;
+}

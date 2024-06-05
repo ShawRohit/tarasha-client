@@ -1,0 +1,19 @@
+
+
+.packages-container .text-styled{
+    line-height: 65px;
+    text-align: left !important;
+}
+.packages-container .text-styled-2{
+    line-height: 50px;
+    text-align: left !important;
+}
+@media (max-width: 700px) {
+    .package-container{
+        height: auto !important;
+    }
+}
+
+.auth-form input{
+    margin-bottom: 0.1rem;
+}

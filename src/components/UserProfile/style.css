@@ -1,0 +1,93 @@
+/* UserProfile.css */
+
+.user-profile {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .user-profile h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .user-profile label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .user-profile input[type="text"],
+  .user-profile input[type="email"],
+  .user-profile input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease;
+  }
+  
+  .user-profile input[type="text"]:focus,
+  .user-profile input[type="email"]:focus,
+  .user-profile input[type="password"]:focus {
+    border-color: #3498db;
+  }
+  
+  .user-profile .error {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .user-profile button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-profile button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Add responsiveness for smaller screens */
+  
+  @media (max-width: 768px) {
+    .user-profile {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+  
+  /* Add animation to form fields */
+  
+  .form-group,
+  button {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s ease forwards;
+    animation-delay: 0.2s;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

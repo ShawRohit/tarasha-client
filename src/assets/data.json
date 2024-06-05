@@ -1,0 +1,192 @@
+{
+  "site-data": {
+    "works": [
+      {
+        "id": 1,
+        "_id": 1,
+        "name": "Transforming a Psychologist's Studio: BW Theme with Budget-Friendly colour Pops",
+        "next": "https://res.cloudinary.com/dfoggertn/image/upload/v1696083603/TarashaWebsiteContent/Images/blogimages/projects/after-1_ebef4d.jpg",
+        "prev": "https://res.cloudinary.com/devtzemxi/image/upload/v1716468798/tarashaImages/Guest_Bedroom.F.view_1_vnl3xg.jpg",
+        "challange": "This was a Studio owned by a Psychologist, she had a particular idea of a Black & White themed Studio with Pop of colours in a limited budget.",
+        "solution": "We saved cost on furnishings, as they were made of solid plywood. We got it cleaned by the use of a professional cleaner. We saved, wherever we could and changed the entire look of this one. "
+      },
+      {
+        "id": 2,
+        "_id": 2,
+        "name": "Optimizing Space and Ambience for Excess Luggage Storage",
+        "next": "https://res.cloudinary.com/devtzemxi/image/upload/v1716468793/tarashaImages/PARENTS_BEDROOM.F.VIEW_2._gt0dmz.jpg",
+        "prev": "https://res.cloudinary.com/devtzemxi/image/upload/v1716468699/M.Bedroom.F._change.A_._view_3_k4ghuc.jpg",
+        "challange": "Excess Suitcases & other lying around which needed to be stored with simple yet pleasant interiors & better lighting.",
+        "solution": "We made long shutters, matching the colours of client’s taste, with better lighting, and Re-painted the entire area with floor polishing.. "
+      },
+      {
+        "id": 3,
+        "_id": 3,
+        "name": "Transforming a Sunlit Space with Creative Furnishings.",
+        "prev": "https://res.cloudinary.com/devtzemxi/image/upload/v1716468700/M.Bedroom.F._change.C_._view_3_fqwf24.jpg",
+        "next": "https://res.cloudinary.com/dfoggertn/image/upload/v1696085955/TarashaWebsiteContent/Images/blogimages/projects/after-5_huyjl5.jpg",
+        "challange": "Direct Sunlight,  Unwanted things, Plain walls.",
+        "solution": "To make the space look more lively & interesting we used soft furnishings like, Wallpaper (Black & White), Curtains.. We cleared out all the unwanted things with our client’s help. "
+      },
+      {
+        "id": 4,
+        "_id": 4,
+        "name": "Revamping a Run-Down Restroom with Bright Accents",
+        "next": "https://res.cloudinary.com/devtzemxi/image/upload/v1716468717/1711689183267_v1xeyg.jpg",
+        "prev": "https://res.cloudinary.com/devtzemxi/image/upload/v1716468790/tarashaImages/1711689183315_xzaoro.jpg",
+        "challange": "In the first picture, as you can see the toilet’s in a poor condition.",
+        "solution": "By introducing better lighting, covering geyser & it’s plumbing pipeline that are visible, also with the vibrant colour on the false ceiling"
+      },
+      {
+        "id": 5,
+        "_id": 5,
+        "prev": "https://res.cloudinary.com/dfoggertn/image/upload/v1696085967/TarashaWebsiteContent/Images/blogimages/projects/before-5_uqzpkg.jpg",
+        "next": "https://res.cloudinary.com/dfoggertn/image/upload/v1696085955/TarashaWebsiteContent/Images/blogimages/projects/after-5_huyjl5.jpg",
+        "name": "Creating a Cozy Therapy Room with Custom Touches",
+        "challange": "The requirement of your client was to have a therapy room with warm & welcoming feel.",
+        "solution": "We used soft furnishings, painting of walls that are a self design, we got the deevan personally customised & made for our client so that their patients can have a wonderful & relaxed therapy sessions "
+      },
+      {
+        "id": 6,
+        "_id": 6,
+        "next": "https://res.cloudinary.com/dfoggertn/image/upload/v1696085996/TarashaWebsiteContent/Images/blogimages/projects/after-6_bv5281.jpg",
+        "prev": "https://res.cloudinary.com/devtzemxi/image/upload/v1716468790/tarashaImages/1711689183315_xzaoro.jpg",
+        "name": "Transforming a Tight Space into a Cosmetics Haven on Busy Road",
+        "challange": "This site was in one of the busiest roads in Kolkata, the site was not spacious and we had to handover it within a month, We were turning a commodity shop into a Cosmetic Shop.",
+        "solution": "Optimized space, expedited renovation for a busy Kolkata road, converting commodity to cosmetics"
+      },
+      {
+        "id": 7,
+        "_id": 7,
+        "next": "https://res.cloudinary.com/devtzemxi/image/upload/v1717078911/LIVING_ROOM_F_VIEW_1_ewhfhq_c_crop_w_3413_h_1920_x_0_y_0_1_1_jafjrj.png",
+        "prev": "https://res.cloudinary.com/devtzemxi/image/upload/v1716468791/tarashaImages/kitchen_view_1_wnpdny.jpg",
+        "name": "Transforming a Tight Space into a Cosmetics Haven on Busy Road",
+        "challange": "This site was in one of the busiest roads in Kolkata, the site was not spacious and we had to handover it within a month, We were turning a commodity shop into a Cosmetic Shop.",
+        "solution": "Optimized space, expedited renovation for a busy Kolkata road, converting commodity to cosmetics"
+      }
+    ],
+    "faq": [
+      {
+        "id": 1,
+        "_id": 1,
+        "que": "Can I still incorporate my personal style into the design?",
+        "ans": "A good interior designer will work closely with you to understand your preferences and integrate them into the design. Your personal style is an essential part of creating a space that feels like home. "
+      },
+      {
+        "id": 2,
+        "_id": 2,
+        "que": "How do I communicate my ideas to the designer?",
+        "ans": "Visual aids like images, mood boards, and samples are great ways to communicate your ideas. Additionally, open and clear communication with your designer is essential for translating your vision into the design."
+      },
+      {
+        "id": 3,
+        "_id": 3,
+        "que": "How long does an interior design project usually take?",
+        "ans": "The timeline depends on the scope of the project. A smaller project might take a few weeks, while a more extensive renovation could take several months. Your designer will provide you with a realistic timeline based on your specific project."
+      },
+      {
+        "id": 4,
+        "_id": 4,
+        "que": "What is the cost of hiring an interior designer?",
+        "ans": "Costs vary based on factors such as the designer's experience, project size, and scope. Designers may charge hourly rates, flat fees, or a percentage of the project's total cost. It's important to discuss pricing upfront."
+      },
+      {
+        "id": 5,
+        "_id": 5,
+        "que": "What if I’m on a budget? Can I still work with an interior designer?",
+        "ans": " A skilled designer can work within various budgets. They can help prioritize design elements, suggest cost effective options, and guide you toward achieving the best results within your financial constraints."
+      }
+    ],
+    "packages": [
+      {
+        "_id": 1,
+        "type": "Bronze",
+        "features": [
+          "Concept Board / Mood Board",
+          "Civil Layout",
+          "Furniture Layout",
+          "Furniture Layout with measurements",
+          "3D Views",
+          "One time Design revision"
+        ],
+        "price": "$499",
+        "ranges": [
+          {
+            "range": "Upto 500 SFT",
+            "price": "21,000/-"
+          },
+          {
+            "range": "500 SFT - 1000 SFT",
+            "price": "42,000/-"
+          },
+          {
+            "range": "> 1000SFT",
+            "price": "45/- Per SFT"
+          }
+        ]
+      },
+      {
+        "_id": 2,
+        "type": "Silver",
+        "features": [
+          "Concept Board / Mood Board",
+          "Civil Layout",
+          "Furniture Layout",
+          "Furniture Layout with measurements",
+          "False Ceiling Layout",
+          "Electrical Layout",
+          "Plumbing, Civil, Flooring, Layouts",
+          "3D Views",
+          "Two time Design revision"
+        ],
+        "price": "$899",
+        "ranges": [
+          {
+            "range": "Upto 500 SFT",
+            "price": "30,000/-"
+          },
+          {
+            "range": "500 SFT - 1000 SFT",
+            "price": "60,000/-"
+          },
+          {
+            "range": "> 1000 SFT",
+            "price": "63/- Per SFT"
+          }
+        ]
+      },
+      {
+        "_id": 3,
+        "type": "Gold",
+        "features": [
+          "Concept Board / Mood Board",
+          "Civil Layout",
+          "Furniture Layout",
+          "Furniture Layout with measurements",
+          "False Ceiling Layout",
+          "Electrical Layout",
+          "Plumbing, Civil, Flooring, Layouts",
+          "Elevations",
+          "3D Views",
+          "Two time Design revision"
+        ],
+        "price": "$1999",
+        "ranges": [
+          {
+            "range": "Upto 500 SFT",
+            "price": "39,000/-"
+          },
+          {
+            "range": "500 SFT - 1000 SFT",
+            "price": "78,000/-"
+          },
+          {
+            "range": "> 1000 SFT",
+            "price": "81/- Per SFT"
+          }
+        ]
+      }
+    ],
+    "callConsultancyTagLine": "With years of experience and a passion for design, we offer our consultation services that put you in direct contact with our expert designers. "
+  }
+}

@@ -1,0 +1,52 @@
+/* TermsAndConditions.css */
+
+/* Container styles */
+.terms-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  .terms-container h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Content styles */
+  .terms-content {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .terms-container {
+      padding: 10px;
+    }
+    
+    .terms-container  h1 {
+      font-size: 20px;
+    }
+    
+    .terms-content {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .terms-container  h1 {
+      font-size: 18px;
+    }
+    
+    .terms-content {
+      font-size: 12px;
+    }
+  }
+  

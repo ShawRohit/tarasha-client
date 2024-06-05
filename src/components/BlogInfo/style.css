@@ -1,0 +1,137 @@
+.blog-item-container{
+    /* height: 250px; */
+    
+}
+.blog-item-container > img{
+    max-width: 371px;
+    max-height: 100%;
+}
+.blog-info .text-styled{
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+.info-blog-tags p{
+    width: 80px;
+    height: 25px;
+    padding: 4px, 8px, 4px, 8px;
+    border-radius: 3px;
+    gap: 10px;
+    background: #DFAE0029;
+    background-color: #DFAE0029;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-item-content{
+    height: 200px;
+    /* overflow-y: hidden; */
+}
+
+.blog-little-info *{
+    color: lightgray;
+}
+
+.blog-little-info img{
+    border-radius: 50%;
+}
+
+.blog-main-content div{
+    width: 100%;
+    height: auto;
+    align-items: flex-end;
+}
+
+.blog-main-content div p:last-child{
+    /* margin-bottom: 5px; */
+    line-height: 1.4rem;
+}
+
+
+.read-more-button{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.read-more-button:hover{
+    opacity: 0.5;
+}
+
+.blog-item-image{
+    width: max(30%, 400px);
+}
+
+
+.blog-item-image img{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+    height: 200px;
+}
+
+.blog-image-shadow{
+    position: absolute;
+    height: 200px;
+    width: 60%;
+    top: 0;
+    left: 0;
+    background-color: #DFAE0029;
+}
+
+.bs-ar-ur svg{
+    font-size: 1.2rem !important;
+    color: #B87E1B;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+    position: relative;
+}
+
+.read-more{
+    color: #B87E1B;
+    font-size: 1rem;
+    opacity: 1;
+    margin-bottom: 10px;
+}
+
+.bc-ch{
+    display: flex;
+}
+
+.bc-ch:nth-child(even){
+    flex-direction: row-reverse !important;
+    gap: 10px !important;
+}
+
+.left-mini-blog{
+    width: 65%;
+}
+
+/* .blog-item-container .text-styled{
+    font-size: 1.4rem;
+    line-height: 30px;
+} */
+
+.w-100{
+    width: 100%;
+}
+.h-25{
+    height: 25vh;
+}
+
+.h-25 > *{
+    object-fit: contain !important;
+}
+
+@media (max-width: 900px){
+    .blog-item-container .text-styled{
+     font-size: 1rem;
+    }
+    .text-image-background .text-styled, .blog-item-container .text-styled{
+        text-align: left !important;
+    }
+  }
+
+  

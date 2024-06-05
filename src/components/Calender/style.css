@@ -1,0 +1,168 @@
+/* Style for the calendar container */
+.calendar-container {
+    font-family: Arial, sans-serif;
+    /* width: 300px; */
+    margin: 0 auto;
+    text-align: center;
+    width: min(90%, 600px);
+    /* height: 80%; */
+    box-shadow: 4px 4px 22px 0px #0000001A;
+    border-radius: 11px;
+    padding-bottom: 1rem;
+  }
+
+  .heading-calender {
+    font-size: 2.2rem !important;
+    position: relative;
+    top: -1.1rem;
+    z-index: 5;
+  }
+
+  .calendar-header img{
+    cursor: pointer;
+  }
+  
+.calendar hr{
+    color: grey;
+    background-color: gainsboro;
+}
+
+.calendar-header p {
+    color: grey;
+    font-size: 1.2rem;
+}
+.calendar-header img:last-child{
+    transform: rotate(-180deg) !important;
+}
+  /* Style for the calendar header */
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1.3px solid lightgray;
+  }
+  
+  /* Style for the calendar table */
+  .calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Style for table headers (day labels) */
+  .day-label {
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* Style for table cells (date cells) */
+  .date-cell {
+    cursor: pointer;
+    padding: 8px;
+    
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    /* border-radius: 4px;
+    padding: 8px 16px; */
+    cursor: pointer;
+    font-family: BlackMango;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  /* Style for empty cells (outside the current month) */
+  .date-cell:empty {
+    /* visibility: hidden; */
+    height: 20px; /* Adjust the height as needed */
+  }
+
+
+  .button-calender{
+    font-size: 1.2rem;
+
+  }
+
+  .black-next{
+    width: 1rem;
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+  }
+
+  .time-picker button:hover{
+    background: none;
+    opacity: 0.5;
+  }
+
+  .date-cell p{
+    border-radius: 50%;
+    height: 2.5rem !important;
+    width: 2.5rem !important;
+    margin: auto;
+  }
+
+  .date-cell p:hover, .selected p, .selected-time{
+    background: #B87E1B !important;
+    color: white !important;
+  }
+
+  .time-selector button{
+    height: 2.3rem;
+    width: 130px;
+  }
+
+.v-hidden{
+    visibility: hidden;
+}
+
+.payment-component{
+    height: 50vh;
+    padding-bottom: 40px;
+}
+
+.calender-time{
+  width: 200px !important;
+}
+
+@media (max-width: 768px) {
+  .time-picker .text-styled{
+    text-align: center !important;
+  }
+  .time-picker table{
+    margin-bottom: 2rem !important;
+  }
+  .time-picker{
+    width: 95vw;
+    position: relative;
+    left: -0.7rem;
+  }
+  .calendar-container{
+    width: 99%;
+  }
+  .calendar-container td{
+    padding: 0px !important;
+  }
+  .time-picker .text-red-500{
+    text-align: center;
+    font-size: 1.5rem !important;
+  }
+}
+
+
+.time-picker .text-styled{
+  font-size: 1.5rem !important;
+  /* padding-top: 1.8rem; */
+}
+
+/* .active{
+  color: black !important;
+  font-weight: bold;
+  opacity: 1;
+} */

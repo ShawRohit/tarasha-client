@@ -1,0 +1,21 @@
+.elements > div{
+    max-width: 90%;
+    /* width: 35rem; */
+}
+
+.elements-container{
+    width: 100%;
+}
+
+#services-container{
+    width: 100%;
+}
+
+#services-container > div{
+    max-width: 90%;
+    width: 100% !important;
+}
+
+.wh-100{
+    width: 100%;
+}

@@ -1,0 +1,60 @@
+/* style.css */
+
+#dashboard-user {
+    display: flex;
+    position: relative;
+    top: 5.5rem;
+    height: calc(100vh - 5.5rem) !important;
+  }
+  
+  .dashboard-sidebar {
+    width: 200px;
+    background-color: beige;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .sidebar-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-buttons button {
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #845b19;
+    margin-top: 0.1rem;
+  }
+
+  .sidebar-buttons button.small-screen{
+    width: 100%;
+  }
+  
+  .sidebar-buttons button.active {
+    background-color: #555;
+  }
+  
+  .dashboard-main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+
+  .w-full{
+    width: 100%;
+  }
+
+  .h-full{
+    height: 83vh
+  }
+
+  .scroll-y{
+    overflow-y: scroll;
+  }

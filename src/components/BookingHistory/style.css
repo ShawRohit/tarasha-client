@@ -1,0 +1,130 @@
+/* BookingHistory.css */
+
+.booking-history {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-history:hover {
+    background-color: #fff;
+  }
+  
+  .booking-history h2 {
+    text-align: center;
+    /* color: #3498db; */
+    font-size: 28px;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .booking-history input[type="text"] {
+    width: 97%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .booking-history input[type="text"]:focus {
+    border-color: #3498db;
+  }
+  
+  .booking-history table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* .booking-history table, .booking-history th, .booking-history td {
+    border: 1px solid #ccc;
+  } */
+  
+  .booking-history th, .booking-history td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .booking-history thead {
+    background-color: #B87E1B;
+    color: #fff;
+  }
+  
+  .booking-history th {
+    font-weight: bold;
+  }
+  
+  .booking-history tr:nth-child(even) {
+    background-color: #f2f2f2;
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-history tr:hover {
+    background-color: #e6e6e6;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  .status-booking-pending{
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    border-radius: 50%;
+    border: none;
+    margin-top: 3px;
+  }
+
+  .status-booking-over{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(154, 16, 16);
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+    position: relative;
+    left: -3px;
+  }
+
+
+  .status{
+    border-bottom: none;
+    border-right: none;
+    border-bottom: none;
+   font-weight: bold;
+   text-transform: capitalize;
+  }
+
+  .pagination{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+  }
+
+  .pagination span{
+    font-size: 0.7rem;
+  }
+
+  .booking-history td{
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 1000px){
+    .booking-history th{
+      font-size: 0.7rem;
+    }
+    .booking-history td{
+      font-size: 0.6rem;
+    }
+  }
+
+  .booking-history button{
+    background: transparent;
+  }

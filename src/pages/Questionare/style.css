@@ -1,0 +1,47 @@
+#questionare-container{
+    position: relative;
+    top: 5.5rem;
+}
+.questionare-header{
+    height: 40vh;
+    background: #DFAE0029;
+}
+
+.questionare-header p{
+    text-align: center;
+}
+
+.questionare-header p:nth-child(2){
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#questionare-container form{
+    width: 80vw;
+    margin: auto;
+}
+
+#questionare-container input{
+    border: none;
+    border-bottom: 1px solid #B87E1B;
+    outline: none;
+    margin-top: 2rem;
+    width: 100%;
+    padding-bottom: 0.3rem;
+    font-size: 1rem;
+}
+
+.question{
+    font-family: Montserrat;
+    font-size: max(1.8vw, 17px);
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.questionare-header p{
+ text-align: center !important;
+ line-height: 3rem;
+}

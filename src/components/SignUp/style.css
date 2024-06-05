@@ -1,0 +1,109 @@
+
+  .modal-header {
+    display: flex;
+    justify-content: flex-end;
+    height: 4rem;
+  }
+  
+  .close-icon {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 32px;
+    color: black;
+    position: relative;
+    top: -0.1rem;
+  }
+  
+
+  .auth-header-text{
+    font-size: 1.3rem !important;
+    text-align: center;
+    font-family: Black Mango;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+}
+
+
+.auth-form{
+    width: 439px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.auth-form input{
+    border: 1px solid #B87E1B;
+    padding-left: 1rem;
+    height: 60px;
+    max-width: 100%;
+    margin-top: 1rem;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 91%;
+}
+
+.auth-form button{
+    background: linear-gradient(90deg, #000000 19.27%, #B87E1B 153.58%);
+    width: 435px;
+    height: 60px;
+    color: #ffffff;  
+    font-family: 'Black Mango';
+    font-family: 700;
+    font-size: 16px;
+    line-height: 24.32px;
+    border: none;
+    width: 439px;
+    max-width: 100%;
+}
+
+input:focus{
+    outline: none;
+}
+
+.phone-no {
+  display: flex;
+  align-items: center;
+}
+
+.phone-no select{
+  height: 57px;
+  margin-bottom: 4px;
+  border: 1px solid #B87E1B;
+  background-color: lightgray;
+  border-radius: 10px 0px 0px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 80px;
+  margin-top: 1.1rem;
+}
+.phone-no select:focus{
+  outline: none;
+}
+
+.phone-no input{
+  border-left: none;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  width: 90%;
+}
+
+.auth-container{
+  overflow-y: scroll !important;
+}
+.modal * {
+  overflow-y: scroll !important;
+}
+
+.modal * {
+  overflow-x: visible;
+}
+
+.modal{
+  overflow-y: scroll !important;
+}

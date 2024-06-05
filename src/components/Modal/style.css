@@ -1,0 +1,84 @@
+.modal-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+  
+  .modal {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    position: relative;
+    z-index: 1001;
+    width: 1085px;
+    max-height: 100%;
+  }
+  .modal input{
+    height: 35px !important;
+  }
+  
+  .modal-header {
+    background-color: transparent; 
+    color: #fff;
+    padding: 0px 10px 0px 0px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  
+  .close-icon {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 4rem !important;
+    cursor: pointer;
+    position: absolute;
+    top: 5px !important;
+    right: 10px !important;
+    /* transform: scale(2); */
+  }
+  
+  .modal-content {
+    padding: 0px 20px 2rem 20px;
+  }
+  
+
+  .divider-auth{
+    background: linear-gradient(90deg, #B87E1B 0%, #F0C660 17.81%, #B87E1B 42.29%, #F0C660 65.21%, #B87E1B 80.31%, #F0C660 100%);
+    height: 1.5px;
+    width: 24%;
+    margin-left: 0.5rem;
+  }
+
+  .auth-fot-text{
+    font-size: 1rem !important;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 1120px) {
+    .modal-overlay{
+        border-radius: none !important;
+    }
+    .modal-header{
+        border-radius: none;
+    } 
+    .modal {
+        border-radius: none !important;
+        height: 100%;
+    }
+    .modal input{
+        height: 35px !important;
+    }
+  }
+
+
+  .modal input{
+    width: 93.5%;
+  }

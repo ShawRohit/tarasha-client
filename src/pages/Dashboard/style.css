@@ -1,0 +1,32 @@
+#dashboard-container{
+    position: relative;
+    top: 5.5rem;
+}
+
+.dashboard-header{
+    background: #DFAE0029;
+    width: 100%;
+}
+
+#dashboard-container > div{
+    width: 100%;
+}
+
+#dashboard-container .table-header{
+    background-color: #DFAE0029;
+    width: 85%;
+}
+
+.table-header p{
+    font-weight: bold;
+}
+
+#dashboard-container .table-body{
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.table-row{
+    width: 85%
+}
+
