@@ -18,7 +18,7 @@ import Image5 from "../../assets/Images/service8/5.jpg";
 import Image6 from "../../assets/Images/service8/6.jpg";
 import Image7 from "../../assets/Images/service8/7.jpg";
 import Image8 from "../../assets/Images/service8/8.jpg";
-import Image9 from "../../assets/Images/Office-image-1.jpg";
+import Image9 from "../../assets/Images/Office-Image-1.jpg";
 const Services: React.FC = () => {
   const navigate = useNavigate();
   const screenSize = useScreenSize();
