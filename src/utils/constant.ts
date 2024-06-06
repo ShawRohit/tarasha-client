@@ -1,7 +1,7 @@
 export const BASE_URL_DATA =
   "https://res.cloudinary.com/dfoggertn/raw/upload/v1696096778/TarashaWebsiteContent/Images/blogimages/data_eyhpqe.json";
 // export const BASE_URL_DATA = "../../"
-export const BASE_URL = "http://13.234.218.247:4000/api";
+export const BASE_URL = "https://tarashainteriors.com/api";
 // export const BASE_URL = "https://tarashainteriors.onrender.com/api"
 export const API_ENDPOINT = {
   // "SITE_DATA" : BASE_URL_DATA + "/site-data",
