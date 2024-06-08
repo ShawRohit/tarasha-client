@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
               }}
               style={{ color: "white !important", marginBottom: "1px" }}
             >
-              Before and After
+              Our Work
             </p>
           </div>
           <div className="flex flex-col mt-4  pl-4">
@@ -111,7 +111,7 @@ const Footer: React.FC = () => {
             </p>
             <p
               onClick={() => {
-                navigate("/blogs");
+                navigate("/blog");
                 gaEventTracker("Blogs", "Navigating to blog page");
               }}
               style={{ color: "white !important", marginBottom: "1px" }}

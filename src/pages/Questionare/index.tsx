@@ -98,8 +98,8 @@ const Questionare: React.FC = () => {
       const data = await response.json();
       if (data.success) {
         swal({
-          title: "Questins submitted successfully!!",
-          text: "Thank you! for reaching us out. We will respond you back within 2 business days",
+          title: "Questions submitted successfully!!",
+          text: "Thank you! for reaching us out. We will respond you back within 2 business days.",
           icon: "success",
           dangerMode: false,
           // timer: 10000
